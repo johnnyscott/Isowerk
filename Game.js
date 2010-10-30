@@ -15,12 +15,13 @@
          // assetmanager => loadimages
          // assetmanager => createBlockPalette (takes materials list)        
          
-         // prepare world
+         // create world
+         // world => buildWorld
       },
             
-      run : function(){ 
-         // this = > startup 
-         // start gameloop          
+      run : function(){          
+         // start gameloop      
+         // this = > startup     
       },
             
       playingLoop : function(){
@@ -29,12 +30,13 @@
       
       titleLoop : function(){
          // do startup display logic
+         // show title screen and debug trace
       },                  
       
       gameLoop : function (){
         // switch mode
         // ?normal - playingMode
-        // 
+        // ? startup - title loop
       }
    };
 }

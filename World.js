@@ -1,6 +1,6 @@
 ﻿Isowerk.World = function(){
    return {      
-      blocks : [],
+      worldGrid : [],
       blockGroups : [], // blocks connected as objects   
       block_length : 5, // isometric length in pixels of a block side       
       
@@ -12,7 +12,13 @@
       // ignore while rotation is not present
       light_left_back : 0.6,
       light_right_back : 1.0,
-      light_bottom : 0.36
+      light_bottom : 0.36,
+      
+      
+      buildWorld : function(){
+         // flush worldGrid and...
+         // generate new starting worldGrid
+      },
       
       
 
